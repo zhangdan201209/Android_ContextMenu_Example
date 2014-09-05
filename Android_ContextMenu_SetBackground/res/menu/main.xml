@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android_contextmenu_setbackground.MainActivity" >
+
+    <item
+        android:id="@+id/red"
+        android:orderInCategory="100"
+        android:title="red"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/blue"
+        android:orderInCategory="100"
+        android:title="blue"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/green"
+        android:orderInCategory="100"
+        android:title="green"
+        app:showAsAction="never"/>
+
+</menu>
